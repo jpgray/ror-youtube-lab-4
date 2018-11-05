@@ -10,6 +10,15 @@
   </head>
 
   <body>
+    <nav class=" ">
+        <ul>
+              <li> <%= link_to 'Home', home_path %> </li>
+              <li> <%= link_to 'Create Post', new_post_path %> </li>
+        </ul>
+
+    </nav>
+    <div class="">
     <%= yield %>
+    </div>
   </body>
 </html>
